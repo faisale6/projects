@@ -25,6 +25,9 @@ The long-term goal is to simulate railway operations, including train management
 - Passenger count tracking
 - Available capacity calculation
 - Terminal-based train information display
+- Multiple train management using arrays of structures
+- Automatic train display using a for loop
+- Reusable display_header() function
 
 ### Planned
 - Multiple train management
@@ -80,7 +83,7 @@ Run these commands from the directory containing `train_system.c`.
 - [x] Create initial C train structure
 - [x] Store train information
 - [x] Calculate available passenger capacity
-- [ ] Support multiple trains
+- [x] Support multiple trains
 - [ ] Implement interactive train management menu
 - [ ] Add Sydney railway stations and routes
 - [ ] Simulate train movements
